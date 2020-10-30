@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+  background: black;
+  color: #fff;
+}
+
+.container{
+	background-color:white;
+	height:40px;
+	width:100%;
+	margin: 5;
+	padding-left:20px ;
+	padding-top:0;
+	
+}
+.container h2{
+	color: black;
+	text-align:center;
+	font-family:Bradley Hand ITC;
+}
+.container u3 a{
+	float:left;
+}
+.container u3 b{
+	float:right;
+}
+.live {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  padding: 30px 0 0 20px;
+  margin-bottom: 50px;
+ 
+}
+
+.live .person {
+  position: relative;
+  margin-right: 3
+  0px;
+  position: center;
+}
+
+.live .profile-pic {
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.live .person:nth-child(1) .profile-pic {background-image: url(kiran.jpg);}
+.live .person:nth-child(2) .profile-pic {background-image: url(iftah.jpg);}
+.live .person:nth-child(3) .profile-pic {background-image: url(fanny.jpg);}
+.live .person:nth-child(4) .profile-pic {background-image: url(toko.jpg);}
+.live .person:nth-child(5) .profile-pic {background-image: url(zain.jpg);}
+.live .person:nth-child(6) .profile-pic {background-image: url(jonii.jpg);}
+.live .person:nth-child(7) .profile-pic {background-image: url(raja.jpg);}
+.live .person:nth-child(8) .profile-pic {background-image: url(santi.jpg);}
+.live .person:nth-child(9) .profile-pic {background-image: url(yeni.jpg);}
+.live .person:nth-child(10) .profile-pic {background-image: url(dedy.jpg);}
+.live .person:nth-child(11) .profile-pic {background-image: url(zndy.jpg);}
+.live .person:nth-child(12) .profile-pic {background-image: url(muhammad.jpg);}
+.live .person:nth-child(13) .profile-pic {background-image: url(ahmad.jpg);}
+.live .person:nth-child(14) .profile-pic {background-image: url(boby.jpg);}
+.live .person:nth-child(15) .profile-pic {background-image: url(khd.jpg);}
+
+
+.live .profile-pic::before {
+  content: '';
+  display: inline-block;
+  border: 3px solid #FF7F50;
+  padding: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.live .person .name {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.live-active .profile-pic:before {
+  border-color:red !important;
+}
+
+.live-active span {
+  background:red;
+  color: #000;
+  width: 50px;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 60px;
+  padding: 2px 0;
+  font-weight: 600;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.live-active i {
+  padding-right: 3px;
+}
+
+.newsfeed {
+  padding: 0 20px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background: gray;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, .5);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.card .picture1 {
+  background-image: url(senja1.jpg);
+  background-position: 100%;
+  background-size: cover;
+  height: 1500px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card .picture2 {
+  background-image: url(senja2.jpg);
+  background-position: 100%;
+  background-size: cover;
+  height: 1500px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card .picture3 {
+  background-image: url(santri.jpg);
+  background-position: 100%;
+  background-size: cover;
+  height: 2200px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card .picture4 {
+  background-image: url(cinta.jpg);
+  background-position: 100%;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card .picture5 {
+  background-image: url(terjun.jpg);
+  background-position: 100%;
+  background-size: cover;
+  height: 2200px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card .content {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+}
+
+.card .header {
+  display: flex;
+  align-items: center;
+}
+
+.card .profile-pic1 {
+  background-image: url(kiran.jpg);
+  background-position: 50%;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.card .profile-pic2 {
+  background-image: url(iftah.jpg);
+  background-position: 50%;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.card .profile-pic3 {
+  background-image: url(fanny.jpg);
+  background-position: 50%;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.card .profile-pic4 {
+  background-image: url(yeni.jpg);
+  background-position: 50%;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.card .profile-pic5 {
+  background-image: url(zain.jpg);
+  background-position: 50%;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.card .detail {
+  margin-left: 10px;
+}
+
+.card .posted {
+  font-size: 10px;
+  padding-top: 3px;
+}
+
+.card .desc {
+  padding-top: 10px;
+  line-height: 1.5;
+}
+
+.card .tags {
+  font-size: 12px;
+  color: blue;
+  padding-top: 10px;
+}
+
+.card .footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.card .footer .like {
+  flex: 0 0 25%;
+}
+
+.card .footer .like i {
+	color:red;
+}
+.card .footer .comment {
+  flex: 1;
+}
+
+.card .footer .share {
+  flex: 0 0 18%;
+}
+
+.card .footer i {
+  padding-right: 3px;
+}
+
+.nav {
+  background: #242C39;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -4px 25px 0 rgba(0, 0, 0, .12);
+}
+
+.nav .icon {
+  flex: 1;
+  text-align: center;
+}
+
+.nav .icon i {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.nav .icon p {
+  font-size: 12px;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.space {
+  height: 200px;
+}
